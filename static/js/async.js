@@ -8,7 +8,7 @@ function get_data(seedValue) {
     document.getElementById("results_loading_div").style.display = "flex";
     $.ajax({
 	        type: 'POST',
-	        url: '/process',
+	        url: 'https://royaleapp.wl.r.appspot.com/process',
 	        dataType: 'json',
 	        contentType: 'application/json; charset=utf-8',
 	        data: JSON.stringify({player_tag: seedValue}),
