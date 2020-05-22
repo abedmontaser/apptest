@@ -33,6 +33,7 @@
 	background-size:cover;
     height: 100vh;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 #overall_stats_div {
