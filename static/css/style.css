@@ -298,7 +298,7 @@
     -webkit-animation-fill-mode: forwards;
 }
 /**/
-/* Chrome, Safari, Opera */
+/* Chrome, Safari,  Opera */
 @-webkit-keyframes loader {
     0% {
     background: transparent;
