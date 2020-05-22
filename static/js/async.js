@@ -8,7 +8,7 @@ $(document).on('submit', '#form', (event) => {
 })
 
 function x (data) {
-  document.getElementById("results_loading_div").style.display = "flex";
+  document.getElementById("results_loading_div").style.display = "block";
   setTimeout(() => {
     window.scrollTo(0, 0);
     document.getElementById("results_loading_div").style.display = "none";
