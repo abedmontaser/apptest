@@ -8,8 +8,10 @@ $(document).on('submit', '#form', (event) => {
 })
 
 function x (data) {
-  window.scrollTo(0, 0);
-  document.getElementById("results_loading_div").style.display = "none";
+  document.getElementById("results_loading_div").style.display = "flex";
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+    document.getElementById("results_loading_div").style.display = "none";
 
     document.getElementById("main_container").style.display = "none";
     document.getElementById("results_container").style.display = "inherit";
@@ -22,6 +24,8 @@ function x (data) {
     if (data['messages'].length > 0) {
       setTimeout(function() {show_messages(data)},10)
     };
+  },4000);
+
 
 }
 
