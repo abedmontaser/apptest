@@ -58,11 +58,6 @@ function get_data(seedValue) {
 	        }
 	    });
 };
-var div = document.getElementById('background_container');
-div.addEventListener('scroll', () => {
-  div.scrollTop = Math.max(1, Math.min(div.scrollTop,
-    div.scrollHeight - div.clientHeight - 1));
-});
 
 var url_dict = {'Giant': 'https://api-assets.clashroyale.com/cards/300/Axr4ox5_b7edmLsoHxBX3vmgijAIibuF6RImTbqLlXE.png',
  'Skeletons': 'https://api-assets.clashroyale.com/cards/300/oO7iKMU5m0cdxhYPZA3nWQiAUh2yoGgdThLWB1rVSec.png',
