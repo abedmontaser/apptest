@@ -1,10 +1,7 @@
 .btn-primary:hover {
     cursor: pointer;
 }
-body {
-    overflow:scroll;
-    -webkit-overflow-scrolling:touch;
-}
+
 /* BANNER */
 #banner_container {
     font-family: clashFont;
@@ -35,8 +32,6 @@ body {
 	background-repeat:no-repeat;
 	background-size:cover;
     height: 100vh;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 
 #overall_stats_div {
