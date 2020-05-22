@@ -296,6 +296,10 @@
     background: transparent;
     left: -10px;
     transform-origin: 10px 35px;
+        -ms-transform-origin: 10px 35px;
+        -webkit-transform-origin: 10px 35px;
+        -moz-transform-origin: 10px 35px;
+        -o-transform-origin: 10px 35px;
   }
   30% {
     background: white;
@@ -304,6 +308,10 @@
     background: transparent;
     left: 10px;
     transform-origin: -10px 35px;
+    -ms-transform-origin: -10px 35px;
+    -webkit-transform-origin: -10px 35px;
+    -moz-transform-origin: -10px 35px;
+    -o-transform-origin: -10px 35px;
   }
 }
 }
