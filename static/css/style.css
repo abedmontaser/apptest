@@ -294,7 +294,7 @@
     -webkit-animation-timing-function: linear;
     -webkit-animation-fill-mode: forwards;
 }
-
+/**/
 /* Chrome, Safari, Opera */
 @-webkit-keyframes loader {
     0% {
