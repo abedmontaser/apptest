@@ -1,7 +1,10 @@
 .btn-primary:hover {
     cursor: pointer;
 }
-
+body {
+    overflow:scroll;
+    -webkit-overflow-scrolling:touch;
+}
 /* BANNER */
 #banner_container {
     font-family: clashFont;
