@@ -286,8 +286,13 @@
     margin-top: 10%;
     width: 10rem;
     height: 10rem;
-    -webkit-animation: spinner-grow 1s linear infinite;
     animation: spinner-grow 1s linear infinite;
+
+    -webkit-animation-name: spinner-grow;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
 }
 
 /* Chrome, Safari, Opera */
