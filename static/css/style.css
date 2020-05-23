@@ -234,9 +234,7 @@
 .tail-select-container {
     min-height: 40px;
 }
-#page_header {
-    animation-iteration-count: infinite;
-}
+
 .filters_spacer {
     height: 10px;
 }
@@ -285,21 +283,16 @@
 }
 
 #results_loading_spinner {
-    margin-top: 10%;
-
     width: 10rem;
     height: 10rem;
-    animation-name: spinner-grow;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    -webkit-animation-name: spinner-grow;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: infinite;
-
+    display: inline-block;
+    vertical-align: text-bottom;
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 1;
+    margin-bottom: 37px;
+    margin-top: 0;
 }
 /**/
 /* Chrome, Safari,  Opera */
