@@ -234,7 +234,9 @@
 .tail-select-container {
     min-height: 40px;
 }
-
+#page_header {
+    animation-iteration-count: infinite;
+}
 .filters_spacer {
     height: 10px;
 }
