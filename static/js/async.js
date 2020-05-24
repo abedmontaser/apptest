@@ -12,6 +12,7 @@ function x (data) {
   setTimeout(() => {
     window.scrollTo(0, 0);
     document.getElementById("results_loading_div").style.display = "none";
+    document.getElementById("background_container").style.height = "100vh";
 
     document.getElementById("main_container").style.display = "none";
     document.getElementById("results_container").style.display = "inherit";

@@ -31,6 +31,7 @@
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
+    -webkit-background-size: cover;
     overflow: auto;
 }
 
@@ -312,6 +313,7 @@
 input {
     -webkit-user-select:text;
 }
+
 .tail-select input {
     -webkit-user-select: text;
     -khtml-user-select: text;
