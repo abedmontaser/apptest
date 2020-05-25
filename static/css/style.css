@@ -16,11 +16,9 @@
 }
 
 #page_header {
-    color: red;
+    color: blue;
 }
-body {
-    overflow: hidden;
-}
+
 #main_container {
     font-family: clashFont;
     text-align: center;
@@ -40,18 +38,8 @@ body {
     -webkit-background-size: cover;
     overflow: auto;
     height: 100vh;
-    min-height: -moz-available; /* WebKit-based browsers will ignore this. */
-    min-height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
-    min-height: fill-available;
 }
 
-@media (max-width: 767px) {
-    #background_container {
-        background-repeat: repeat;
-        background-size:unset;
-        -webkit-background-size: unset;
-    }
-}
 #overall_stats_div {
     font-family: clashFont;
     text-align: center;
@@ -275,16 +263,15 @@ body {
 #footer_policy {
     margin-top: 50px;
     border-top: 2px solid black;
-    height: 150px;
     display: flex;
     background: rgba(0,0,0,.6);
+    padding: 50px 100px;
 }
 
 #footer_text {
     font-family: clashFont;
     color: white;
     margin: auto;
-    max-width: 90%;
     font-size: 12px;
 }
 
