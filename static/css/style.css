@@ -16,7 +16,10 @@
 }
 
 #page_header {
-    opacity: 0.3;
+    color: red;
+}
+body {
+    overflow: hidden;
 }
 #main_container {
     font-family: clashFont;
