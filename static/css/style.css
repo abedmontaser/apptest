@@ -1,7 +1,9 @@
 .btn-primary:hover {
     cursor: pointer;
 }
-
+body {
+    overflow: hidden;
+}
 /* BANNER */
 #banner_container {
     font-family: clashFont;
@@ -33,6 +35,7 @@
 	background-size:cover;
     -webkit-background-size: cover;
     overflow: auto;
+    height: 100vh;
 }
 
 @media (max-width: 767px) {
