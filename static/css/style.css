@@ -15,10 +15,6 @@
     margin-top: 5%;
 }
 
-#page_header {
-    color: blue;
-}
-
 #main_container {
     font-family: clashFont;
     text-align: center;
@@ -267,7 +263,11 @@
     background: rgba(0,0,0,.6);
     padding: 50px 100px;
 }
-
+@media (max-width: 767px) {
+    #footer_policy {
+        padding: 20px 30px;
+    }
+}
 #footer_text {
     font-family: clashFont;
     color: white;
