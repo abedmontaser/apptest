@@ -8,10 +8,14 @@ $(document).on('submit', '#form', (event) => {
 })
 
 function x (data) {
+    document.getElementById("background_container").style.height = "100vh";
   document.getElementById("results_loading_div").style.display = "block";
+
   setTimeout(() => {
     window.scrollTo(0, 0);
     document.getElementById("results_loading_div").style.display = "none";
+
+
     document.getElementById("main_container").style.display = "none";
     document.getElementById("results_container").style.display = "inherit";
     document.getElementById("page_header").innerHTML = "Check out your results!"
