@@ -15,6 +15,9 @@
     margin-top: 5%;
 }
 
+#page_header {
+    opacity: 0.3;
+}
 #main_container {
     font-family: clashFont;
     text-align: center;
