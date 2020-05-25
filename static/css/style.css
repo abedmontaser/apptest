@@ -35,6 +35,13 @@
     overflow: auto;
 }
 
+@media (max-width: 767px) {
+    #background_container {
+        background-repeat: repeat;
+        background-size:unset;
+        -webkit-background-size: unset;
+    }
+}
 #overall_stats_div {
     font-family: clashFont;
     text-align: center;
