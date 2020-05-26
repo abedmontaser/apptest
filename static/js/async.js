@@ -8,7 +8,6 @@ $(document).on('submit', '#form', (event) => {
 })
 
 function x (data) {
-    document.getElementById("background_container").style.height = "100vh";
   document.getElementById("results_loading_div").style.display = "block";
 
   setTimeout(() => {
