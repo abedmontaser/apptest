@@ -44,12 +44,7 @@ body:after {
     bottom: 0;
 }
 #background_container {
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    overflow: auto;
-    height: 100vh;
+    
 }
 
 @media (max-width: 767px) {
