@@ -40,6 +40,8 @@ body:after {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border: 1px solid transparent;
+    bottom: 0;
 }
 #background_container {
 
