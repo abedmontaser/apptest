@@ -39,7 +39,7 @@
 @media (max-width: 767px) {
     #background_container {
         height: 100%;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 }
 
